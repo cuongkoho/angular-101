@@ -15,11 +15,8 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     ProductListComponent,
     ProductAlertsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
